@@ -1,0 +1,48 @@
+<!doctype html>
+<html>
+<head>
+  <title>Euler</title>
+  <!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+	<link href="style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+
+
+
+	<div class="container bs-docs-container">
+
+	<h1>Euler</h1>
+
+	<form class="form-horizontal">
+
+		<div class="row">
+			<div class="col-md-6">
+				<div class="input-group ">
+					<span class="input-group-btn">
+						<button class="btn btn-primary" type="button" onclick="test(document.getElementById('txtTest').value);">Test!</button>
+					</span>
+					<input type="text" class="form-control col-md-6" id="txtTest">
+				</div>
+			</div>
+			<div class="col-md-6">
+				<input type="button" id="btnStart" value="Start" onclick="start();" class="btn btn-danger">
+
+			</div>
+		</div>
+
+		<hr>
+
+		<div class="row">
+
+		<p class="col-md-12" style="word-wrap: break-word;" id="code"></p>
+
+		</div>
+	</form>
+
+	</div>
+
+	<script src="main.js"></script>
+
+</body>
+</html>
