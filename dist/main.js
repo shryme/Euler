@@ -9,15 +9,18 @@ function start() {
 
 	console.timeEnd("a");
 
+	console.log("Result: ", res);
 	code.innerHTML  = res;
+
+	notify();
 }
 
 function test(value) {
 
-	code.innerHTML  = "";
+	code.innerHTML = "";
+
 }
 
 function execute() {
 
 }
-
