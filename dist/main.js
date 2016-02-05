@@ -12,7 +12,8 @@ function start() {
 	console.log("Result: ", res);
 	code.innerHTML  = res;
 
-	notify();
+	if (document.hidden)
+		notify();
 }
 
 function test(value) {
@@ -23,4 +24,8 @@ function test(value) {
 
 function execute() {
 
+
+	return "";
 }
+
+
